@@ -9,7 +9,7 @@
 
 # MAGIC %md
 # MAGIC 
-# MAGIC 
+# MAGIC This is a test change
 # MAGIC 
 # MAGIC # Getting Started with the Databricks Platform
 # MAGIC 
