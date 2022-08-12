@@ -69,6 +69,8 @@
 # MAGIC Click the **Edit** button. Note that most settings can be modified (if you have sufficient permissions). Changing most settings will require running clusters to be restarted.
 # MAGIC 
 # MAGIC **NOTE**: We'll be using our cluster in the following lesson. Restarting, terminating, or deleting your cluster may put you behind as you wait for new resources to be deployed.
+# MAGIC 
+# MAGIC Changed
 
 # COMMAND ----------
 
