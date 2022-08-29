@@ -320,9 +320,10 @@ USE ${da.db_name};
 
 -- COMMAND ----------
 
--- TODO
-
-<FILL_IN>
+-- TO-DO 
+CREATE OR REPLACE weather_managed AS 
+SELECT * 
+FROM parquet.`${da.paths.working_dir}/weather`
 
 -- COMMAND ----------
 
@@ -364,7 +365,7 @@ USE ${da.db_name};
 
 -- TODO
 
-<FILL-IN>
+CREATE OR REPLACE GLOBAL TEMP VIEW celsius_global
 AS (SELECT *
   FROM weather_managed
   WHERE UNIT = "C")
@@ -503,6 +504,10 @@ DROP DATABASE ${da.db_name} CASCADE
 
 -- MAGIC %python
 -- MAGIC DA.cleanup()
+
+-- COMMAND ----------
+
+
 
 -- COMMAND ----------
 
